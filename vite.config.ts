@@ -10,6 +10,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/card/',
   resolve: {
     alias: {
       '@': '/src',

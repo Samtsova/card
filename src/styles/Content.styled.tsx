@@ -6,7 +6,8 @@ type ContentPropsType = {
 
 export const Content = styled.p<ContentPropsType>`
 
-    margin: 10px;
+    margin: 0 10px; 
+    font-family: 'Inter';
 
       ${(props) =>
     props.contentType === "title" &&
@@ -19,8 +20,8 @@ export const Content = styled.p<ContentPropsType>`
       ${(props) =>
     props.contentType === "article" &&
     css<ContentPropsType>`
-        font-weight: 500;
         font-size: 12px; 
+        line-height: 20px;
         color: #ABB3BA 
       `}
 `

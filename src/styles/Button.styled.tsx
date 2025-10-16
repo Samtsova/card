@@ -9,7 +9,8 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
   height: 30px;
   border-radius: 5px;
   font-size: 10px;
-  font-weight: bold;  
+  font-weight: bold; 
+  letter-spacing: 0; 
 
   ${(props) =>
     props.btnType === "outline" &&
